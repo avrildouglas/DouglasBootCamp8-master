@@ -1,0 +1,26 @@
+package mowing;
+
+import java.util.Scanner;
+
+public class CalculateMowingAct {
+
+    public static void main( String[] args )
+   {
+   		Scanner keyboard = new Scanner(System.in); 
+    	double length;
+    	double width;
+    	double squareyard;
+    	int amttime;
+
+    	System.out.print("What is the length of the lawn? ");
+    	length = keyboard.nextDouble();
+    	
+       	System.out.print("What is the width of the lawn? ");
+       	width = keyboard.nextDouble();     	
+ 
+       	squareyard = length * width;
+       	
+       	System.out.println(squareyard);
+ //   	System.out.println( The length is + length + "the "  + width is + width + "and time is" +);
+    }
+}

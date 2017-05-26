@@ -1,0 +1,19 @@
+package escape;
+public class EscapeTheSequences {
+	 public static void main(String[] args) { 
+	    System.out.print("\t");
+	    System.out.print("*********\r\t\n\t");
+	    System.out.print("*\t*\n\t");
+	    System.out.print("*\t*\n\t");
+	    System.out.print("*\t*\n\t");
+	    System.out.print("*********\r\t\n\t");
+        System.out.print("*r\t\n\t*\r");
+        System.out.print("*\n*");
+        System.out.print("*\t*");
+    /**    System.out.print("*       *");
+        System.out.print("*       *");
+        System.out.print("*       *");
+        System.out.print("*********");
+        System.out.print("*********");**/
+}
+}

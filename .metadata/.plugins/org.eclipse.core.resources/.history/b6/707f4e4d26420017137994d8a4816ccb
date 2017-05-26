@@ -1,0 +1,36 @@
+package taxcode;
+
+import java.util.Scanner;
+
+public class CalculateTaxAmt {
+
+    public static void main( String[] args )
+   {
+   		Scanner keyboard = new Scanner(System.in); 
+    	String cusID;
+    	String cusName;
+    	double salesAmount;
+    	String taxCode;
+    	double totAmount;
+
+    	System.out.print("Enter Customer ID: ");
+    	cusID = keyboard.next();
+    	
+       	System.out.print("Enter Customer Name: ");
+       	cusName = keyboard.next();  
+       	
+       	System.out.print("Enter Sales Amount: ");
+       	cusName = keyboard.nextDouble(); 
+       	
+       	System.out.print("Enter Tax Code: ");
+       	cusName = keyboard.nextDouble(); 
+ 
+       	squareyard = length * width;
+       	amttime = squareyard / (1.0 * 60);
+       	
+       	System.out.println(squareyard);
+     	System.out.println(amttime);
+       	
+ //   	System.out.println( The length is + length + "the "  + width is + width + "and time is" +);
+    }
+}

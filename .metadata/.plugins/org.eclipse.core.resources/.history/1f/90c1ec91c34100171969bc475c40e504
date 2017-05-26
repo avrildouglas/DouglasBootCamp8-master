@@ -1,0 +1,13 @@
+package escape;
+public class EscapeTheSequences {
+	
+	public static void main (int amount) {   
+        System.out.print("*/t*");
+        System.out.print("*/t*");
+        System.out.print("*       *");
+        System.out.print("*       *");
+        System.out.print("*       *");
+        System.out.print("*********");
+        System.out.print("*********");
+}
+}
