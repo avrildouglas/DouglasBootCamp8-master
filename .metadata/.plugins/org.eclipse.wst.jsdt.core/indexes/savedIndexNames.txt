@@ -4,13 +4,10 @@ INDEX VERSION 1.3+/home/student/Desktop/public/CodeWork/406/ADouglas/DouglasBoot
 1895208158.index
 2480534778.index
 3016307630.index
-2965297198.index
-2952305424.index
+203797362.index
 2518867270.index
 168990182.index
 4178603679.index
-3352794021.index
 651202300.index
-4079544023.index
 1544274086.index
-2903831847.index
+2089348824.index

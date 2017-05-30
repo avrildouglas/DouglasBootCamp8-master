@@ -13,7 +13,11 @@ public class CalculateTaxAmt {
     	String taxCode;
     	double totAmount;
     	double toPercent;
-
+    	
+    	while (keyboard.hasNext()) {
+    		   // if the next is a double, print found and the double
+  		
+        if (keyboard.hasNext()) {
     	System.out.print("Enter Customer ID: ");
     	cusID = keyboard.next();
     	
@@ -27,7 +31,7 @@ public class CalculateTaxAmt {
        	taxCode = keyboard.next(); 
        	
         if (taxCode.equalsIgnoreCase("NRM"))
-            toPercent = 0.06;
+            toPercent = 0.06;                                                                                                                                                                                                                                                                       
         else if (taxCode.equalsIgnoreCase("NPF"))
         	toPercent = 0.0;
         else if (taxCode.equalsIgnoreCase("BIZ"))
@@ -42,6 +46,7 @@ public class CalculateTaxAmt {
         System.out.println(salesAmount);     	
        	System.out.println(taxCode);
      	System.out.println(totAmount);
-       	
+    	  }
+    	}	
     }
 }
