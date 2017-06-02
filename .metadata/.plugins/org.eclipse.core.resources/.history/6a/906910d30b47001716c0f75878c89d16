@@ -1,0 +1,20 @@
+package iCarpkg;
+
+public class CarApp {
+	
+	public static void main(String[] args) {
+
+		Car car = new Car();
+		car.setCarMake("Porsche");
+		car.setCarColor("Red");;
+		print(car.());
+		print(c.getCommonName() +" belongs to  " + c.getAnimalFamily());
+		
+	}
+	
+			
+		public static void print(String s){
+			System.out.println(s);
+		}
+}
+

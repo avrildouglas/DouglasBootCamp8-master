@@ -1,0 +1,12 @@
+package newAnimalExperiment;
+
+public class Primate extends Animal  {
+	
+
+	public Primate() {
+		super();
+		System.out.println("I am now primate constructure");
+	}
+}
+		
+	

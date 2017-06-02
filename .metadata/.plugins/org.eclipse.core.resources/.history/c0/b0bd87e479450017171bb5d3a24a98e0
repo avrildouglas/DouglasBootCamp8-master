@@ -1,0 +1,49 @@
+package guesssecretloop;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class GuessSecretNumLoop {
+
+	public static void main(String[] args){
+
+		Random r = new Random();
+		
+		int secretNum = 1 + r.nextInt(1000) ;
+		int numsAmt = 0;
+		
+		Scanner sc = new Scanner(System.in); 
+
+		
+		int numSecret;
+		String response;
+		boolean success = false;
+		
+		//while (success == false){
+	//	do{
+			do{
+				System.out.println("Enter a secret number between 1 and 1000: ");
+				numSecret = sc.nextInt();
+				numsAmt++;
+			
+				if (numSecret == secretNum) {
+					success = true;
+				}
+				else if (numSecret < secretNum)	{
+					System.out.println("You guessed too low, try again? (Y/N");
+					response = sc.next();
+					success = false;
+				}
+				else if (numSecret > secretNum)	{
+					System.out.println("You guessed too high, try again? (Y/N)");
+					response = sc.next();
+					success = false;
+				}
+			
+		}while (!success);
+//	 	System.out.println("Congratulations!!! You have guessed the right number.");
+//	 	System.out.println("Do you want to try? (Y/N)");
+//	 	yes = sc.next();
+//	 }while (yes.equalsIgnoreCase("y"));	
+  }
+}

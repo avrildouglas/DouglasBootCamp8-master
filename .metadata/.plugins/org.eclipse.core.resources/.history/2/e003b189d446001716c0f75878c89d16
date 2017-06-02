@@ -1,0 +1,20 @@
+public class Cow extends Animal  {
+
+	public Cow() {
+
+	All = "cow";
+	}
+		
+	public String drinkwater(){
+			
+	//		//if I want to call the method that's actually in the parent class
+			return "A" + All + "is drinking water...";
+		}
+
+	public String moo(){
+		
+	//		//if I want to call the method that's actually in the parent class
+			return "A" + All + "moos...";
+		}
+}
+

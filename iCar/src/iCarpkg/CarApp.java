@@ -1,0 +1,22 @@
+//Author: Avril Douglas
+//June 1, 2017
+
+
+package iCarpkg;
+
+public class CarApp {
+	
+	public static void main(String[] args) {
+
+		Car car = new Car();
+		car.setCarMake("Car Family");
+		car.setCarColor("Car Color");
+	
+		print(car.accelerate());
+		print(car.getCarMake() + " belongs to"	+ car.getCarMake());
+	}
+	
+	public static void print(String s){
+		System.out.println(s);
+	}
+}

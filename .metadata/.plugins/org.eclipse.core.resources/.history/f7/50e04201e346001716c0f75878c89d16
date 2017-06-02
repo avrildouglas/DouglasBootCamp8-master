@@ -1,0 +1,19 @@
+package newAnimalExperiment;
+
+public class AnimalApp {
+	
+	public static void main(String[] args) {
+
+		Cow c = new Cow();
+		c.setAnimalFamily("Cow Family");
+		c.setCommonName("Cow");
+		print(c.breathe());
+		print(c.getCommonName() +" belongs to  " + c.getAnimalFamily());
+		
+		Chimpanzee p = new Chimpanzee();
+		p.setAnimalFamily("Primate");
+		p.("Chimpanzee");
+		print (p.breathe());
+
+	
+}

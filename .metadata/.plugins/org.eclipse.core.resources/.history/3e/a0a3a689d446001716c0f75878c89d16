@@ -1,0 +1,22 @@
+
+
+public class Animal{
+	
+	Animal theAnimal;
+	
+	public Animal(){
+	//the constructor is where you would initialize variables 
+	//or otherwise set up the class
+		System.out.println("A new animal has been created!");
+	}
+
+	public String sleep(){
+		return "A" + theAnimal + "sleeps...";
+	}
+	public String eat(){
+		return "A" + theAnimal + "eats...";
+	}
+	public String breathe(){
+		return "A" + theAnimal + "eats...";
+	}
+}

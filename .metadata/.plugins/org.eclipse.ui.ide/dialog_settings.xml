@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/student/Documents/DouglasBootCamp8-master/AnimalClassExample"/>
+		<item value="/home/student/Documents/DouglasBootCamp8-master/animalproject/AnimalClassExample"/>
+		<item value="/home/student/Documents/workspace-sts-3.8.4.RELEASE/animalclassexample"/>
 		<item value="C:\MC\BCamp8Projects\Code\DouglasBootCamp8-master"/>
 	</list>
 	<list key="installedFeatures">

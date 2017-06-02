@@ -1,0 +1,44 @@
+package newAnimalExperiment;
+
+/*
+* All Birds are Animals but all Animals are not Birds
+*/
+public class Cow extends Animal  {
+	
+
+	public Cow() {
+		super();
+	}
+	
+	
+	/*
+		
+	public String sleep(){
+		
+		//if I want to call the method that's actually in the parent class
+	//	theAnimal = super.sleep();
+		return commonName;
+		}
+
+
+	public String eat(){
+		
+	//		//if I want to call the method that's actually in the parent class
+			return "A " + theAnimal + " eats....";
+		}
+	
+
+	public String fly(){
+		
+	//		//if I want to call the method that's actually in the parent class
+			return "A " + theAnimal + " flies...";
+		}
+	
+	public String breathe(){
+		
+	//		//if I want to call the method that's actually in the parent class
+			return "A " + theAnimal + " breathes...";
+		}*/
+}
+
+}

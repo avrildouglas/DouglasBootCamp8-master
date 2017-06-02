@@ -1,0 +1,101 @@
+/**Avril Douglas
+ * Java Bootcamp
+ * June 2nd, 2017
+ */
+
+package weekTC;
+
+
+import java.util.*;
+
+public class ResumeClass {
+
+    public static void main(String[] args) {
+  		
+       String fName, lName;
+	   String eMail;
+	   Boolean result;
+	   String answer = "";;
+	   
+		//Declare variables for Education input
+       ArrayList<String> listEd = new ArrayList<String>();
+       int edI = 0;
+	   
+       ArrayList<String> listExp = new ArrayList<String>();
+	   int expI = 0;
+	   
+       ArrayList<String> listSkills = new ArrayList<String>();
+	   int skI = 0;
+
+       Scanner input = new Scanner(System.in);
+         
+	   System.out.println("Enter your first name: ");
+	   fName = input.next();
+	   System.out.println("Enter your last name: ");
+	   lName = input.next();
+
+	   do{
+			System.out.println("Enter your email address: ");
+			eMail = input.next();
+			if (eMail == null)
+				result = false;
+		}while(eMail == null);
+	   {	
+		do{
+	        System.out.println("Current Education shows " + listEd);
+            System.out.println("Add more details? (y/n)");
+            answer = input.next();
+            if (answer.equalsIgnoreCase("y"))
+                System.out.println("Enter Education Details: ");
+                listEd.add(input.next());
+            }
+		  } while (answer.equals('n'));
+		// } while (edI < 11);
+          /**  if (input.next().startsWith("y")) {
+                System.out.println("Enter Education Details: ");
+                listEd.add(input.next());*/
+                for (int i = 0; i < listEd.size(); i++){
+                	System.out.print(listEd.get(i));
+                }
+                //listEd.add(input.nextLine());
+		}   
+          //  } else {
+           //    break;
+         
+      //  } while (edI < 11);
+
+		//}
+        do {
+            System.out.println("Current Experience shows " + listExp);
+            System.out.println("Add more details? (y/n)");
+            if (input.next().startsWith("y")) {
+                System.out.println("Enter Experience Details: ");
+                listExp.add(input.nextLine());
+                expI++;
+            } else {
+                break;
+            }
+        } while (expI < 11);
+        
+        do {
+            System.out.println("Current Skills shows " + listSkills);
+            System.out.println("Add more details? (y/n)");
+            if (input.next().startsWith("y")) {
+                System.out.println("Enter Skills and Rating Details: ");
+                listSkills.add(input.nextLine());
+                skI++;
+            } else {
+                break;
+            }
+        }   while (skI < 21);
+        System.out.println(fName + "" + lName);
+        System.out.println(eMail);
+        System.out.println("\r\t\n\tEducation");
+       	System.out.println(listEd);
+        System.out.println("\r\t\n\tExperience");
+       	System.out.println(listExp);
+        System.out.println("\r\t\n\tSkills");
+       	System.out.println(listSkills);
+
+  }
+}

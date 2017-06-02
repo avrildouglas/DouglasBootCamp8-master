@@ -1,0 +1,32 @@
+package iCarpkg;
+
+public class Vehicle {
+
+	//private String commonName;
+	private String vehicleMake;
+	private String vehicleColor;
+
+
+	public String start(){
+		return "The " + vehicleColor + vehicleMake + " is starting.";
+	}
+	public String accelerate(){
+		return "The " + vehicleColor + vehicleMake + " is accelerating.";
+	}
+	public String color(){
+		return "The " + vehicleColor + vehicleMake + " going 50 mph";
+
+	}
+	public String getVehicleMake() {
+		return vehicleMake;
+	}
+	public void setVehicleMake(String vehicleMake) {
+		this.vehicleMake = vehicleMake;
+	}
+	public String getVehicleColor() {
+		return vehicleColor;
+	}
+	public void setVehicleColor(String vehicleColor) {
+		this.vehicleColor = vehicleColor;
+	}	
+}

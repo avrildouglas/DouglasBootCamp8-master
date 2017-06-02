@@ -1,0 +1,19 @@
+package iCarpkg;
+
+
+public class Car extends Vehicle {
+	
+		
+		public String color(){
+			return "The " + carFamily + " is ...";
+		}
+		public String model(){
+			return "A " + animalFamily + " sleeps...";
+		}
+		public String speed(){
+			return "The " + carFamily + " is accelerating...";
+		}
+		
+		
+	}
+

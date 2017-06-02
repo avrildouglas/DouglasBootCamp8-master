@@ -1,0 +1,35 @@
+/*
+* All Birds are Animals but all Animals are not Birds
+*/
+public class Bird extends Animal  {
+	
+public String theAnimal="Bird";
+
+	public Bird() {
+		super();
+		System.out.println("A" + theAnimal + "is hatched");
+	}
+		
+	public String sleep(){
+		
+		//if I want to call the method that's actually in the parent class
+	//	theAnimal = super.sleep();
+		return "A" + theAnimal + "sleeps soundly...";
+		}
+
+
+	public String eat(){
+		
+	//		//if I want to call the method that's actually in the parent class
+			return "A" + theAnimal + "eats....";
+		}
+	
+
+	public String fly(){
+		
+	//		//if I want to call the method that's actually in the parent class
+			return "A" + theAnimal + "flies...";
+		}
+}
+
+ 

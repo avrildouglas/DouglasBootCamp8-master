@@ -1,0 +1,24 @@
+//Author: Avril Douglas
+
+package robotp;
+
+public class Robot {
+
+	Head robotHead;
+	BodyClass robotBody;
+	Legs robotLegs;
+	private string robotName;
+
+	public Robot(String rName) {
+		this.robotName = rName;
+		this.robotHead = new Head();
+		this.robotBody = new BodyClass();
+		this.robotLegs = new Legs();
+		}
+	
+	@overide
+
+	public String toString(){
+		return "Robot [robotName=" + robotName + ]
+	}
+	}

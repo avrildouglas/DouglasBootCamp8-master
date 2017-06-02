@@ -1,0 +1,30 @@
+/*
+* All Birds are Animals but all Animals are not Birds
+*/
+public class Cow extends Animal {
+public Cow()
+{
+//super();
+System.out.println("A cow is hatched...");
+}
+
+public String drinkwater() {
+return "A cow is drinking water..";
+}
+
+public String eat() {
+return "A cow eats...";
+}
+
+public String moo(){
+//Birds can fly but other animals can't so this method
+//is unique to the Bird class
+return "A cow moo...";
+}
+
+public String breathe(){
+	//Birds can fly but other animals can't so this method
+	//is unique to the Bird class
+	return "A cow breathe...";
+	}
+}

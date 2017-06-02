@@ -1,0 +1,22 @@
+package iCarpkg;
+
+public class Car extends Vehicle {
+	private String carMake;
+	private String carColor;
+	
+	public Car() {
+		super();
+	}
+	public String start(){
+		return "The " + carColor + carMake + " is starting.";
+	}
+	public String accelerate(){
+		return "The " + carColor + carMake + " is accelerating.";
+	}
+	public String color(){
+		return "The " + carColor + carMake + " going 50 mph";
+
+	}
+	
+}
+

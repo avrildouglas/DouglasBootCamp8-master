@@ -1,0 +1,9 @@
+package robotp;
+
+public class Robot {
+
+	Head robotHead;
+	Body robotBody;
+	Legs robotLegs;
+	
+}

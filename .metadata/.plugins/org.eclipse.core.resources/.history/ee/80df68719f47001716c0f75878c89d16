@@ -1,0 +1,14 @@
+package robotp;
+
+public class Robot {
+
+	Head robotHead;
+	BodyClass robotBody;
+	Legs robotLegs;
+
+	public Robot() {
+		this.robotHead = new Head();
+		this.robotBody = new BodyClass();
+		this.robotLegs = new Legs();
+		}
+	}

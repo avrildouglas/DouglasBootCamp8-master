@@ -1,0 +1,8 @@
+package robotp;
+
+public class Legs {
+	public String kick(){
+		return ("The leg kicks..");
+	}
+
+}

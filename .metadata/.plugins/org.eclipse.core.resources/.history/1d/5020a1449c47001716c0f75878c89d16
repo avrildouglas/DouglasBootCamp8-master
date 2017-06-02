@@ -1,0 +1,27 @@
+package robotp;
+
+import java.util.ArrayList;
+
+public class JavaRobotApp {
+	
+	public static void main(String[] args) {
+		ArrayList<String> obj = new ArrayList<String>();
+		
+		obj.add("One");
+		obj.add("Two");
+		obj.add("Three");
+		
+		
+		Robot myNewRobot = new Robot();
+		print (myNewRobot.robotHead.shake());
+		print (myNewRobot.robotBody.move());
+		print (myNewRobot.robotLegs.kick());
+		
+		obj.toString();
+	}
+	private static void print(String s)
+	{
+		System.out.println(s);
+	}
+
+}
